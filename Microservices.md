@@ -110,3 +110,11 @@ The burgeoning "software-defined" world is all based around software speaking to
 
 Another challenge is that many folks have the idea that by using containers to build and deploy your applications that you have a microservices architecture. Nope.
 Although containers are a great infrastructure platform to enable microservices, it does not always mean that. It is entirely possible to build a monolithic application inside containers. This is often compared to the idea that just because you drive an SUV, it doesn't mean that you are using it for sport utility. Sometimes it is just for comfort or style.
+
+# Beyond Microservices:
+	
+Building a microservice-based application is more than just the technical aspects of it, we also have to consider the human side of deploying and delivering this type of application.
+Having said that Microservice is a set of independently delivered and deployed services, each services has its own team. Typically, a team consists of 8 to 12 members, and can deliver and deploy their own service without contacting the other teams. This allows the team to be autonomous, as listed in one of its benefits.
+A team is proportional to its service. Once the service becomes larger, the team building it becomes bigger. To conform to the standards of Microservice,the team has to be broken down into smaller groups and split the associated service or services.
+When implementing a microservice-based application, we have to practice continuous delivery (such as Agile development) and deployment (such as Scrum deployment practices).
+
