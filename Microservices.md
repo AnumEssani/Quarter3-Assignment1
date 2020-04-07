@@ -61,3 +61,14 @@ To handle the complexity of modern software applications, to take the advantages
 “Microservice Architecture is about decomposing a Software System into autonomus Units which are independently deployable and which communicates via lightweight, language agnostic way and together they fulfill the business goal.”
 Microservice Architecture also uses the same technique of divide and conquer to tackle the complexity of software systems like Modular Monolithic architecture where a complex Software system is divided into many Microservices which communicates via external Interfaces. The key difference between Modular Monolithic and Microservice Architecture is that every Microservice can be deployed independently whereas all Modules usually are deployed as a whole (deployment Monolith).
 Monolithic application is one single unit (tightly coupled) like a single Cube. Modular application is like Rubric Cube which can contain small modules but the modules cannot be separated and can only be deployed together. Microservices are like a lego cube made by lego blocks where the blocks are loosely coupled, easily separable and all the lego blocks together made the cube.
+
+# Benefits of Microservices:
+The benefit of decomposing an application into different smaller services are numerous:
+> •	Modularity: This makes the application easier to understand, develop, test, and become more resilient to architecture erosion. This benefit is often argued in comparison to the complexity of monolithic architectures.
+
+
+> •	Scalability: Since microservices are implemented and deployed independently of each other, i.e. they run within independent processes, they can be monitored and scaled independently.
+
+> •	Integration of heterogeneous and legacy systems: microservices is considered as a viable mean for modernizing existing monolithic software application.There are experience reports of several companies who have successfully replaced (parts of) their existing software by microservices, or are in the process of doing so.The process for Software modernization of legacy applications is done using an incremental approach.
+
+> •	Distributed development: it parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently. It also allows the architecture of an individual service to emerge through continuous refactoring. Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
