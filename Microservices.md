@@ -118,3 +118,9 @@ Having said that Microservice is a set of independently delivered and deployed s
 A team is proportional to its service. Once the service becomes larger, the team building it becomes bigger. To conform to the standards of Microservice,the team has to be broken down into smaller groups and split the associated service or services.
 When implementing a microservice-based application, we have to practice continuous delivery (such as Agile development) and deployment (such as Scrum deployment practices).
 
+# Should You be Developing Using Microservices?
+
+Yes and No. Yes, where it is appropriate based on the application requirements. Many would argue that every application should be developed with this in mind, but quite often there are client-server applications that may not fit the model as well, and it also requires a new approach to development that is new to a lot of developers.
+There is little doubt that a microservices architecture is a great enabler for scalability, resiliency, and generally good development practices. Not only at initial deployment, but every upgrade to portions of the application become safer because of the loose coupling of the components. It will add some complexity to the initial design and development, so that needs to be accounted for during the planning phases.
+The opinion is that microservices is the right direction. We will undoubtedly see the continued adoption and evolution of microservices architectures. What SOA began with may gain a few different names along the path, but it the result will be more flexible, resilient application architectures. It is difficult to argue that flexibility and resiliency aren't important and well worth any minimal trade-offs to a nominal amount of extra development time.
+
