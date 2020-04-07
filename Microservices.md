@@ -105,3 +105,8 @@ The benefit of decomposing an application into different smaller services are nu
 > •	inter-component software access via a chosen protocol, HTTP being the most common 
 
 The burgeoning "software-defined" world is all based around software speaking to software, abstracting the underlying infrastructure. Micro-services allows the isolation of roles and applications within that software environment to make them thinner, more agile, and also less dependent on each other at the code layer.
+
+# Containers Does Not Mean Microservices:
+
+Another challenge is that many folks have the idea that by using containers to build and deploy your applications that you have a microservices architecture. Nope.
+Although containers are a great infrastructure platform to enable microservices, it does not always mean that. It is entirely possible to build a monolithic application inside containers. This is often compared to the idea that just because you drive an SUV, it doesn't mean that you are using it for sport utility. Sometimes it is just for comfort or style.
