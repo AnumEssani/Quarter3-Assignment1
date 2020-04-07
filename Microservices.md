@@ -72,3 +72,27 @@ The benefit of decomposing an application into different smaller services are nu
 > •	Integration of heterogeneous and legacy systems: microservices is considered as a viable mean for modernizing existing monolithic software application.There are experience reports of several companies who have successfully replaced (parts of) their existing software by microservices, or are in the process of doing so.The process for Software modernization of legacy applications is done using an incremental approach.
 
 > •	Distributed development: it parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently. It also allows the architecture of an individual service to emerge through continuous refactoring. Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
+
+# Criticism and Concerns:
+> •	The microservices approach is subject to criticism for a number of issues:
+
+> •	Services form information barriers.
+
+> •	Inter-service calls over a network have a higher cost in terms of network latency and message processing time than in-process calls within a monolithic service process. 
+
+> •	Testing and deployment are more complicated.
+
+> •	Moving responsibilities between services is more difficult. It may involve communication between different teams, rewriting the functionality in another language or fitting it into a different infrastructure.However, Microservices can be deployed independently from the rest of the application while teams working on monoliths need to synchronize to deploy together.
+
+> •	Viewing the size of services as the primary structuring mechanism can lead to too many services when the alternative of internal modularization may lead to a simpler design.This requires the use of applications helping understanding the overall architecture of the applications and interdependencies between components.
+
+> •	Two-phased commits are regarded as an anti-pattern in microservices-based architectures as this results in a tighter coupling of all the participants within the transaction. However, lack of this technology causes awkward dances which have to be implemented by all the transaction participants in order to maintain data consistency.
+
+> •	Development and support of many services is more challenging if they are built with different tools and technologies - this is especially a problem if engineers move between projects frequently.
+
+> •	The protocol typically used with microservices (HTTP) was designed for public-facing services, and as such is unsuitable for working internal microservices that often must be impeccably reliable.
+
+> •	While not specific to microservices, the decomposition methodology often uses functional decomposition, which does not handle changes in the requirements while still adds the complexity of services.
+
+> •	The very concept of microservice is misleading, since there are only services. There is no sound definition of when a service starts or stops being a microservice.
+
