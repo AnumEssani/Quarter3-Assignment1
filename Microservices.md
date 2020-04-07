@@ -28,3 +28,29 @@ It is common for microservices architectures to be adopted for cloud-native appl
 During the early days of Software Development, barriers to entry in Programming languages were high and only people with PhD in Science and Mathematics could use those programming languages. In 1964, a general-purpose programming language BASIC was developed. It lowers the barrier so that non-PhD students from all departments can also write programs. As there was a rapid growth of computing applications in the 1960s, software became large and complex. Computer Scientists tried to tackle the complexity of Software Systems with the ancient and proven technique: Divide and Conquer.
 
 David Parnas published his seminal paper “On the Criteria to be used in decomposing Systems into Modules” in 1972 which introduced the concepts of Modularityand Information hiding. Also,Edsger W. Dijkstra introduced the concept Separation of Concern in his paper “On the role of scientific thought” published in 1974. The works of Parnas, Dijkstra and others lead to the rise of Modular Software Development in the 1970s with the principal of decomposing a large, complex software system into “Loosely coupled, highly cohesive” modules which communicated via internal interfaces. In simple terms, “loosely coupled” means the dependency between modules should be very low and “highly cohesive” means that one module should focus on single or similar functionality. With the rise of the Internet and Web in the 1990s, software systems became widespread in business applications and became even more complex and large. Although Modularity is used to reduce the complexities of software application, it often did not help as the soft Modular boundaries of software sub-systems are easy to cross and misuse. Another Software Architecture pattern became very popular during the 1990s to develop business applications:Layered Architecture. Normally, a business Web Application is divided into several layers: Presentation, Business, Database layers.
+
+# Monolithic Architecture:
+
+Structures an application as a single executable and deployable component. Monolithic architecture is actually a good choice in building simple applications, but there is an architecture that is better for large and complex systems which will be covered in a moment. Some of the benefits of building a monolithic-based application are as follows:
+> •	Simple to develop
+
+> •	Easy to make radical changes
+
+> •	Easy to scale
+
+> •	Straightforward to test and deploy
+
+Since a monolithic-based application is a single component, we deliver, deploy, and test it easily in a straightforward manner. Once an application gets larger and even more complex, we face the following challenges [1]:
+> •	Complexity
+
+> •	Slow development
+
+> •	Commit to deployment
+
+> •	Difficulty in scaling
+
+> •	Reliability
+
+> •	Obsolete
+
+A large and complex monolithic-based application slows down the IDE of the developer which leads to development and deployment issues. This type of application may experience difficulty in adopting new features and new technology. To address these challenges, Microservice Architecture is developed and introduced to the industry.
