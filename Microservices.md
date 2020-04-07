@@ -96,3 +96,12 @@ The benefit of decomposing an application into different smaller services are nu
 
 > •	The very concept of microservice is misleading, since there are only services. There is no sound definition of when a service starts or stops being a microservice.
 
+# What does a Microservices Architecture Require?
+
+> •	Loosely-coupled components
+
+> •	API-accessible
+
+> •	inter-component software access via a chosen protocol, HTTP being the most common 
+
+The burgeoning "software-defined" world is all based around software speaking to software, abstracting the underlying infrastructure. Micro-services allows the isolation of roles and applications within that software environment to make them thinner, more agile, and also less dependent on each other at the code layer.
